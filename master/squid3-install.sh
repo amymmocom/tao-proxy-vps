@@ -15,13 +15,13 @@ if [ `whoami` != root ]; then
 	exit 1
 fi
 
-/usr/bin/wget -q --no-check-certificate -O /usr/bin/sok-find-os https://raw.githubusercontent.com/serverok/squid-proxy-installer/master/sok-find-os.sh > /dev/null 2>&1
+/usr/bin/wget -q --no-check-certificate -O /usr/bin/sok-find-os https://github.com/amymmocom/tao-proxy-vps/tree/main/master/sok-find-os.sh > /dev/null 2>&1
 chmod 755 /usr/bin/sok-find-os
 
-/usr/bin/wget -q --no-check-certificate -O /usr/bin/squid-uninstall https://raw.githubusercontent.com/serverok/squid-proxy-installer/master/squid-uninstall.sh > /dev/null 2>&1
+/usr/bin/wget -q --no-check-certificate -O /usr/bin/squid-uninstall https://github.com/amymmocom/tao-proxy-vps/tree/main/master/squid-uninstall.sh > /dev/null 2>&1
 chmod 755 /usr/bin/squid-uninstall
 
-/usr/bin/wget -q --no-check-certificate -O /usr/bin/squid-add-user https://raw.githubusercontent.com/serverok/squid-proxy-installer/master/squid-add-user.sh > /dev/null 2>&1
+/usr/bin/wget -q --no-check-certificate -O /usr/bin/squid-add-user https://github.com/amymmocom/tao-proxy-vps/tree/main/master/squid-add-user.sh > /dev/null 2>&1
 chmod 755 /usr/bin/squid-add-user
 
 if [[ -d /etc/squid/ || -d /etc/squid3/ ]]; then
