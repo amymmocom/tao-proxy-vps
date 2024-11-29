@@ -225,5 +225,5 @@ echo -e "${NC}"
 echo -e "${GREEN}Thank you for using Amymmo.com Squid Proxy Installer.${NC}"
 echo
 echo -e "${CYAN}To create a proxy user, run command: squid-add-user${NC}"
-echo -e "${CYAN}To change squid proxy port, see ${GREEN}https://serverok.in/how-to-change-port-of-squid-proxy-server${NC}"
+echo -e "${CYAN}To change squid proxy port, see ${GREEN}https://amymmo.com/how-to-change-port-of-squid-proxy-server${NC}"
 echo -e "${NC}"
