@@ -2,12 +2,12 @@
 
 ############################################################
 # Squid Proxy Installer
-# Author: Yujin Boby
-# Email: admin@serverOk.in
-# Github: https://github.com/serverok/squid-proxy-installer/
-# Web: https://serverok.in/squid
+# Author: Amymmo
+# Email: admin@amymmo.com
+# Github: https://github.com/amymmocom/tao-proxy-vps/
+# Web: https://amymmo.com
 # If you need professional assistance, reach out to
-# https://serverok.in/contact
+# https://amymmo.com
 ############################################################
 
 if cat /etc/os-release | grep PRETTY_NAME | grep "Ubuntu 24.04" > /dev/null; then
