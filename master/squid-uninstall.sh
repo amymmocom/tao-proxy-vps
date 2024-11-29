@@ -2,12 +2,12 @@
 
 ############################################################
 # Squid Proxy Installer
-# Author: Yujin Boby
-# Email: admin@serverOk.in
-# Github: https://github.com/serverok/squid-proxy-installer/
-# Web: https://serverok.in/squid
+# Author: Amymmo
+# Email: admin@amymmo.com
+# Github: https://github.com/amymmocom/tao-proxy-vps/
+# Web: https://amymmo.com
 # If you need professional assistance, reach out to
-# https://serverok.in/contact
+# https://amymmo.com
 ############################################################
 
 if [ `whoami` != root ]; then
@@ -32,7 +32,7 @@ if [ $SOK_OS == "ERROR" ]; then
     echo -e "\e[1;31m====================================================="
     echo -e "\e[0m"
     echo -e "Contact me to add support for your OS.\n"
-    echo -e "https://serverok.in/contact\n"
+    echo -e "https://amymmo.com/contact\n"
     exit 1;
 fi
 
@@ -101,7 +101,7 @@ rm -f /usr/bin/squid-uninstall > /dev/null 2>&1
 
 echo 
 echo 
-echo "Squid Proxy uninstalled."
+echo "Amymmo Proxy VPS uninstalled."
 echo "Thank you for using serverok.in squid proxy installer"
-echo "If you want to reinstall Squid Proxy Server, check https://serverok.in/squid"
+echo "If you want to reinstall Squid Proxy Server, check https://amymmo.com"
 echo 
